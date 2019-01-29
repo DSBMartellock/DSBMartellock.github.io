@@ -6,7 +6,14 @@ description: (A collection of things I have done)
 <h3> 
   <section class="wrapper alt style2">
 	  <h1> UNDER CONSTRUCTION </h1>
-						<!-- ProtoPlant -->
+						<ul class="inline-list" style="margin-top:-1em;">
+							{% for post in site.posts %}
+							<li><h6><a href="/#!/{{ post }}"><i class="spotlight"></i> {{ post }}</a></h6></li>
+							{% endfor %}
+						</ul>
+	  
+	  
+	  					<!-- ProtoPlant -->
 	  					
 	  					<!-- ALGAE -->
 						<section class="spotlight">
