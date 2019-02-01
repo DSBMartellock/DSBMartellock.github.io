@@ -8,15 +8,17 @@ description: (A collection of things I have done)
 	  <h1> UNDER CONSTRUCTION </h1>
 						<ul class="inline-list" style="margin-top:-1em;">
 							{% for post in site.posts %}
-							
-							<section class="spotlight">
-							<div class="image"><img src="images/acting.jpg" alt="" /></div><div class="content">
-								<h2> {{post.title}}</h2>
-								<p>{{post.shortdescription}}</p>
-								<a href="url">link text</a>
-							</div>
-							</section>
-							<li><h6><a href="/#!/{{ post.url }}"><i class="spotlight"></i> {{ post }}</a></h6></li>
+							<a href="/#!/{{ post.url }}">
+								<section class="spotlight">
+								<div class="image"><img src="images/acting.jpg" alt="" /></div><div class="content">
+									<h2> {{post.title}}</h2>
+									<p> {{post.shortdescription}} </p>
+									link text
+								</div>
+								</section>
+								<li><h6><a href="/#!/{{ post.url }}"><i class="spotlight"></i> {{ post }}</a></h6></li>
+								
+							</a>
 							{% endfor %}
 						</ul>
 	  
