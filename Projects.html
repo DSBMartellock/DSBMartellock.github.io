@@ -7,30 +7,24 @@ description: (A collection of things I have done)
   <section class="wrapper alt style2">
 	  <h1> UNDER CONSTRUCTION </h1>
 	  
-	  
-	  <ul class="inline-list" style="margin-top:-1em;">
- 		 {% for post in site.posts %}
-    			<li>
-      			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-     			<p>{{ post.excerpt }}</p>
-    			</li>
-  		{% endfor %}
-	  </ul>
-						<ul class="inline-list" style="margin-top:-1em;">
-							{% for post in site.posts %}
-							<a href="/#!/{{ post.url }}">
-								<section class="spotlight">
-								<div class="image"><img src="images/acting.jpg" alt="" /></div><div class="content">
-									<h2> {{post.title}}</h2>
-									<p> {{post.shortdescription}} </p>
-									link text
-								</div>
-								</section>
-								<li><h6><a href="{{ post.url }}"><i class="spotlight"></i> {{ post }}</a></h6></li>
+		<ul class="inline-list" style="margin-top:-1em;">
+			{% for post in site.posts %}
+			<a href="{{ post.url }}">
+			<section class="spotlight">
+				<div class="image"><img src="images/acting.jpg" alt="" /></div><div class="content">
+				<h2> {{post.title}}</h2>
+				<p> {{post.shortdescription}} </p>
 								
-							</a>
-							{% endfor %}
-						</ul>
+			</div>
+			</section>
+				
+				</br>
+			hellowherearewe
+			<li><h6><a href="{{ post.url }}"><i class="spotlight"></i> {{ post }}</a></h6></li>
+			</br>
+			</a>
+			{% endfor %}
+		</ul>
 	  
 	  
 	  					<!-- ProtoPlant -->
