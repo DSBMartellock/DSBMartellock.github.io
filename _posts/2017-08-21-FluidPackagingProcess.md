@@ -1,9 +1,7 @@
-<!-- Packaging Process -->
-<section class="spotlight">
-  <div class="image"><img src="images/sketch.jpg" alt="" /></div><div class="content">
-    <h1>Fluid Reagent Packaging Process Project</h1>
-    <h2>Toolbox Medical Innovations, 2017</h2>
-    <p>The most complex project that I got paid to complete so far!</p>
-    <a href="url">link text</a>
-  </div>
-</section>
+---
+layout: page
+title: Fluid Reagent Packaging Process Project
+description: Toolbox Medical Innovations, 2017
+fulldescription: Design and prototype a flexible inhouse process for creating arbitrary size production blister packageing for various chemical reagents used on the "lab on a chip" In Vitro Diagnostic devices designed by Toolbox Medical Innovations.
+picture: 
+---
