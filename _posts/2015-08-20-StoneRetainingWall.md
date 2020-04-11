@@ -6,5 +6,7 @@ fulldescription: Major innovations: a 3 layer construction with rebar and breeze
 picture: "https://www.coroflot.com/DavidMartellock/Natural-Stone-Retaining-Wall"
 ---
 
+<h2> {{page.title}} </h2>
+<h2> {{page.fulldescription}} </h2>
 
 
