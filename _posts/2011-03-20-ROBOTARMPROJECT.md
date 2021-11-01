@@ -11,8 +11,6 @@ picture: "https://imgur.com/rtRp9h5"
 
 <div class="image"><iframe width="560" height="315" src="https://www.youtube.com/embed/g8HPxGCED_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<h2> {{page.picture}} </h2>
-
 <h2> {{page.fulldescription}} </h2>
 
 
