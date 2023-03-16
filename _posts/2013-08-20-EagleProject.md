@@ -7,4 +7,3 @@ picture: https://s3images.coroflot.com/user_files/individual_files/large_662272_
 ---
 <h2> {{page.title}} </h2>
 <h2> {{page.fulldescription}} </h2>
-<h2> {{page.picture}}
